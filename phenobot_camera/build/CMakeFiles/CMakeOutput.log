@@ -1,0 +1,1200 @@
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_453f8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_453f8.dir/build.make CMakeFiles/cmTC_453f8.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_453f8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_453f8.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_453f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_453f8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_453f8.dir/CheckIncludeFile.c.o -o cmTC_453f8 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_44eb6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_44eb6.dir/build.make CMakeFiles/cmTC_44eb6.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44eb6.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_44eb6.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_44eb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44eb6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_44eb6.dir/src.c.o -o cmTC_44eb6 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9136/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9136.dir/build.make CMakeFiles/cmTC_d9136.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9136.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d9136.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d9136
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9136.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d9136.dir/CheckIncludeFile.c.o -o cmTC_d9136 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1c82c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c82c.dir/build.make CMakeFiles/cmTC_1c82c.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c82c.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1c82c.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1c82c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c82c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1c82c.dir/src.c.o -o cmTC_1c82c 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef7a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef7a2.dir/build.make CMakeFiles/cmTC_ef7a2.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef7a2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ef7a2.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ef7a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef7a2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ef7a2.dir/CheckIncludeFile.c.o -o cmTC_ef7a2 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b014c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b014c.dir/build.make CMakeFiles/cmTC_b014c.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b014c.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_b014c.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b014c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b014c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b014c.dir/src.c.o -o cmTC_b014c 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dd1e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dd1e8.dir/build.make CMakeFiles/cmTC_dd1e8.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd1e8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dd1e8.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dd1e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd1e8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_dd1e8.dir/CheckIncludeFile.c.o -o cmTC_dd1e8 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_30ce2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30ce2.dir/build.make CMakeFiles/cmTC_30ce2.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30ce2.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_30ce2.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_30ce2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30ce2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_30ce2.dir/src.c.o -o cmTC_30ce2 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5e11b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e11b.dir/build.make CMakeFiles/cmTC_5e11b.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e11b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5e11b.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5e11b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e11b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5e11b.dir/CheckIncludeFile.c.o -o cmTC_5e11b 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8f995/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f995.dir/build.make CMakeFiles/cmTC_8f995.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f995.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8f995.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8f995
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f995.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8f995.dir/src.c.o -o cmTC_8f995 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b870b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b870b.dir/build.make CMakeFiles/cmTC_b870b.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b870b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b870b.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b870b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b870b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b870b.dir/CheckIncludeFile.c.o -o cmTC_b870b 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5a590/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a590.dir/build.make CMakeFiles/cmTC_5a590.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a590.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5a590.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5a590
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a590.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5a590.dir/src.c.o -o cmTC_5a590 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d84b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d84b.dir/build.make CMakeFiles/cmTC_7d84b.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d84b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7d84b.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7d84b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d84b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7d84b.dir/CheckIncludeFile.c.o -o cmTC_7d84b 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa659/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa659.dir/build.make CMakeFiles/cmTC_aa659.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa659.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_aa659.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_aa659
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa659.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_aa659.dir/src.c.o -o cmTC_aa659 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a32d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a32d.dir/build.make CMakeFiles/cmTC_3a32d.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a32d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3a32d.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3a32d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a32d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3a32d.dir/CheckIncludeFile.c.o -o cmTC_3a32d 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08325/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08325.dir/build.make CMakeFiles/cmTC_08325.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08325.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_08325.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_08325
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08325.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_08325.dir/src.c.o -o cmTC_08325 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0e572/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e572.dir/build.make CMakeFiles/cmTC_0e572.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e572.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0e572.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0e572
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e572.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0e572.dir/CheckIncludeFile.c.o -o cmTC_0e572 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f963b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f963b.dir/build.make CMakeFiles/cmTC_f963b.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f963b.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_f963b.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f963b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f963b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f963b.dir/src.c.o -o cmTC_f963b 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ce1d2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ce1d2.dir/build.make CMakeFiles/cmTC_ce1d2.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce1d2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ce1d2.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ce1d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce1d2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ce1d2.dir/CheckIncludeFile.c.o -o cmTC_ce1d2 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2512d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2512d.dir/build.make CMakeFiles/cmTC_2512d.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2512d.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2512d.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2512d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2512d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2512d.dir/src.c.o -o cmTC_2512d 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_42ceb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_42ceb.dir/build.make CMakeFiles/cmTC_42ceb.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42ceb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_42ceb.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_42ceb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42ceb.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_42ceb.dir/CheckIncludeFile.c.o -o cmTC_42ceb 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_58c61/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58c61.dir/build.make CMakeFiles/cmTC_58c61.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58c61.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_58c61.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_58c61
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58c61.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_58c61.dir/src.c.o -o cmTC_58c61 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ba89e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ba89e.dir/build.make CMakeFiles/cmTC_ba89e.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba89e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ba89e.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ba89e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba89e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ba89e.dir/CheckIncludeFile.c.o -o cmTC_ba89e 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86bef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86bef.dir/build.make CMakeFiles/cmTC_86bef.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86bef.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_86bef.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_86bef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86bef.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_86bef.dir/src.c.o -o cmTC_86bef 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61476/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_61476.dir/build.make CMakeFiles/cmTC_61476.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61476.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_61476.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_61476
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61476.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_61476.dir/CheckIncludeFile.c.o -o cmTC_61476 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eec2e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eec2e.dir/build.make CMakeFiles/cmTC_eec2e.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eec2e.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_eec2e.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_eec2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eec2e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_eec2e.dir/src.c.o -o cmTC_eec2e 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8d68e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8d68e.dir/build.make CMakeFiles/cmTC_8d68e.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d68e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8d68e.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8d68e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d68e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8d68e.dir/CheckIncludeFile.c.o -o cmTC_8d68e 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_65afd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_65afd.dir/build.make CMakeFiles/cmTC_65afd.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65afd.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_65afd.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_65afd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65afd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_65afd.dir/src.c.o -o cmTC_65afd 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2d92f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d92f.dir/build.make CMakeFiles/cmTC_2d92f.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d92f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2d92f.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2d92f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d92f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2d92f.dir/CheckIncludeFile.c.o -o cmTC_2d92f 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_95d57/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95d57.dir/build.make CMakeFiles/cmTC_95d57.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95d57.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_95d57.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_95d57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95d57.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_95d57.dir/src.c.o -o cmTC_95d57 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7eb19/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7eb19.dir/build.make CMakeFiles/cmTC_7eb19.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7eb19.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7eb19.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7eb19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7eb19.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7eb19.dir/CheckIncludeFile.c.o -o cmTC_7eb19 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3d3bf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d3bf.dir/build.make CMakeFiles/cmTC_3d3bf.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d3bf.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3d3bf.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3d3bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d3bf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3d3bf.dir/src.c.o -o cmTC_3d3bf 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6adc3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6adc3.dir/build.make CMakeFiles/cmTC_6adc3.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6adc3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6adc3.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6adc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6adc3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6adc3.dir/CheckIncludeFile.c.o -o cmTC_6adc3 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_52b98/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_52b98.dir/build.make CMakeFiles/cmTC_52b98.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52b98.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_52b98.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_52b98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52b98.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_52b98.dir/src.c.o -o cmTC_52b98 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eecad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eecad.dir/build.make CMakeFiles/cmTC_eecad.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eecad.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eecad.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eecad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eecad.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_eecad.dir/CheckIncludeFile.c.o -o cmTC_eecad 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a6f60/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a6f60.dir/build.make CMakeFiles/cmTC_a6f60.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6f60.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a6f60.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a6f60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6f60.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a6f60.dir/src.c.o -o cmTC_a6f60 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bdeb0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bdeb0.dir/build.make CMakeFiles/cmTC_bdeb0.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdeb0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bdeb0.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bdeb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdeb0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bdeb0.dir/CheckIncludeFile.c.o -o cmTC_bdeb0 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_330cf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_330cf.dir/build.make CMakeFiles/cmTC_330cf.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_330cf.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_330cf.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_330cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_330cf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_330cf.dir/src.c.o -o cmTC_330cf 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84488/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84488.dir/build.make CMakeFiles/cmTC_84488.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84488.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_84488.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_84488
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84488.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_84488.dir/CheckIncludeFile.c.o -o cmTC_84488 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_31e17/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_31e17.dir/build.make CMakeFiles/cmTC_31e17.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31e17.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_31e17.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_31e17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31e17.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_31e17.dir/src.c.o -o cmTC_31e17 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d29c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d29c.dir/build.make CMakeFiles/cmTC_7d29c.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d29c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7d29c.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7d29c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d29c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7d29c.dir/CheckIncludeFile.c.o -o cmTC_7d29c 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41443/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41443.dir/build.make CMakeFiles/cmTC_41443.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41443.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_41443.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_41443
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41443.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_41443.dir/src.c.o -o cmTC_41443 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e06cd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e06cd.dir/build.make CMakeFiles/cmTC_e06cd.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e06cd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e06cd.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e06cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e06cd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e06cd.dir/CheckIncludeFile.c.o -o cmTC_e06cd 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b596/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b596.dir/build.make CMakeFiles/cmTC_5b596.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b596.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5b596.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5b596
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b596.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5b596.dir/src.c.o -o cmTC_5b596 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fe583/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fe583.dir/build.make CMakeFiles/cmTC_fe583.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe583.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fe583.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fe583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe583.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fe583.dir/CheckIncludeFile.c.o -o cmTC_fe583 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8623d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8623d.dir/build.make CMakeFiles/cmTC_8623d.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8623d.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8623d.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8623d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8623d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8623d.dir/src.c.o -o cmTC_8623d 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1a495/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a495.dir/build.make CMakeFiles/cmTC_1a495.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a495.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1a495.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1a495
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a495.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1a495.dir/CheckIncludeFile.c.o -o cmTC_1a495 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3800/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3800.dir/build.make CMakeFiles/cmTC_a3800.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3800.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a3800.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a3800
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3800.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a3800.dir/src.c.o -o cmTC_a3800 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1719d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1719d.dir/build.make CMakeFiles/cmTC_1719d.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1719d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1719d.dir/CheckIncludeFile.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1719d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1719d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1719d.dir/CheckIncludeFile.c.o -o cmTC_1719d 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7150c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7150c.dir/build.make CMakeFiles/cmTC_7150c.dir/build
+gmake[1]: Entering directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7150c.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7150c.dir/src.c.o -c /home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7150c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7150c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7150c.dir/src.c.o -o cmTC_7150c 
+gmake[1]: Leaving directory '/home/ur5/ros2_phenoCam/src/phenobot_camera/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
