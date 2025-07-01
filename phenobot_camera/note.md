@@ -1,5 +1,6 @@
 This is a ROS2 package for PhenoStreo camera developed at AR Lab, NCSU (Dr. Lirong Xiang).
-This is migrated from its original ROS1 package.
+This is migrated from its original ROS1 package by Prem Raj during his postdoctoral position at AR Lab
+
 
 Currently tested with ROS2 Humble, Ubuntu 22.04 on a Jetson Orin device.
 
